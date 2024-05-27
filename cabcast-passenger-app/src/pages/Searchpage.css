@@ -1,0 +1,253 @@
+/* App.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo{
+    color: white;
+    font-family: sans-serif;
+    justify-content: left;
+  }
+  
+  .header-section {
+    background-color: rgb(8, 8, 35);
+  }
+  
+  /* Style for horizontal menu */
+  .horizontal-menu-search-page {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    margin-bottom: -10px;
+  
+  }
+  
+  .horizontal-menu-search-page select{
+    background-color: rgb(8, 8, 35);
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    
+  }
+  
+  .horizontal-menu-search-page option{
+    background-color: darkcyan;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  /* Style for tabs */
+  .tabs-search-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    width: 101%;
+    
+    
+  }
+  
+  .tabs-search-page button {
+    flex: 1;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid darkcyan;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+    text-align: center;
+    margin-right: -1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -2%;
+    opacity: 0.9;
+  }
+  
+  .tabs-search-page button:focus {
+    outline: none;
+  }
+  
+  .tabs-search-page button:hover {
+    background-color: rgb(155, 207, 209);
+    color: #333;
+  }
+  
+  #fromOfficeSearchPage{
+    margin-left: 300px;
+    border-radius: 20px 0 0 0;
+    border-right: 1px solid darkcyan;
+  }
+  
+  #toOfficeSearchPage{
+    margin-right: 300px;
+    border-radius: 0 20px 0 0;
+    border-left: 1px solid darkcyan;
+  }
+  
+  
+  /* Style for forms */
+  .form-search-page {
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    
+  }
+  
+  .form-search-page form {
+    border-top: 2px solid darkcyan;
+    background-color: white;
+    padding: 2px;
+    width: 52%;
+    padding-left: 75px;
+    margin-top: -49px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 4px;
+    padding-top: 5px;
+    
+  }
+  
+  .form-search-page label {
+    display: block;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .form-search-page select, .form-search-page input[type="Date"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: smaller;
+    background-color: #f1f1f1;
+    border: none;
+  }
+
+  .form-search-page input[type="Date"] {
+    width: 110%;
+
+  }
+  
+  .form-search-page button {
+    background-color: darkcyan;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .form-search-page button:focus {
+    outline: none;
+  }
+  
+  .form-search-page button:hover {
+    background-color: rgb(1, 88, 88)
+  }
+  
+  .result-search-page{
+    background-color: white;
+    padding-bottom: 50%;
+    padding-top: 1%;
+  }
+  
+  .result1-search-page{
+    border: 1px solid #ebebeb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    padding: 20px;
+    width: 98%;
+    padding-left: 75px;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .name-header-search-page{
+    background-color: rgb(199, 231, 232);
+    border-radius: 20px 20px 0 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: -1.8%;
+    width: 109%;
+    margin-left: -7%;
+    padding-left: 5%;
+    font-size: x-large;
+  }
+  
+  .info-right-search-page{
+    text-align: right;
+    font-size: larger;
+    padding-top: 2%;
+  }
+  
+  .rider-select-search-page{
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  .ride-match-button-search-page{
+    margin-top: 1%;
+    text-align: right;
+  
+  }
+  
+  .place-div-search-page{
+    display: inline;
+    background-color: #f1f1f1;
+    margin-right: 15px;
+    padding: 3%;
+    padding-top: 2%;
+    border-radius: 10px;
+    margin-left: -45px;
+  
+  }
+  
+  
+  .footer-section{
+    padding: 8%;
+    background-color: rgb(8, 8, 35);
+  }
+  
+  .final-footer{
+    padding: 0.5%;
+    background-color: darkcyan;
+    font-size: medium;
+    color: white;
+    padding-left: 5%;
+    font-weight: 700;
+    font-family: verdana;
+  }
+
+  .full-form-search-page{
+    background-color:rgb(8, 8, 35);
+    padding-top: 3%;
+    margin-bottom: -5%;
+  }
+  
