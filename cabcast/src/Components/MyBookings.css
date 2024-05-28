@@ -1,0 +1,168 @@
+.header-section-upcoming-trips {
+    background-color: rgb(8, 8, 35);
+  }
+
+  .horizontal-menu-upcoming-trips {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    margin-bottom: 50px;
+  
+  }
+  
+  .horizontal-menu-upcoming-trips button{
+    background-color: rgb(8, 8, 35);
+    display: inline-block;
+    margin-right: 50px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    
+  }
+
+
+.mid-section-upcoming-trips {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    padding-bottom: 20%;
+  }
+
+.side-bar-upcoming-trips{
+    width: 500px;
+    background-color: white;
+}
+
+.side-bar-upcoming-trips button{
+    width: 98%;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    padding: 10px;
+    margin-bottom: 1%;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+
+
+.content-upcoming-trips{
+    flex-grow: 1;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.footer-section{
+    padding: 8%;
+    background-color: rgb(8, 8, 35);
+  }
+  
+  .final-footer{
+    padding: 0.5%;
+    background-color: darkcyan;
+    font-size: medium;
+    color: white;
+    padding-left: 5%;
+    font-weight: 700;
+    font-family: verdana;
+  }
+
+  .result1-upcoming-trips-page{
+    border: 1px solid #ebebeb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    padding: 20px;
+    width: 98%;
+    padding-left: 75px;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+  }
+
+  .info-left-upcoming-trips-page{
+    text-align: left;
+    font-size: large;
+    padding-top: 2%;
+    margin-left: -5%;
+  }
+
+  .info-left-upcoming-trips-page p{
+        font-size: medium;
+  } 
+
+  .name-header-upcoming-trips-page{
+    text-align: left;
+    background-color: rgb(199, 231, 232);
+    border-radius: 20px 20px 0 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: -3%;
+    width: 113.5%;
+    margin-left: -10.5%;
+    padding-left: 5%;
+    padding-right: 3%;
+    font-size: x-large;
+  }
+
+  .name-header-upcoming-trips-page div{
+    display: inline-block;
+  }
+
+  .rider-select-bookings-page{
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    
+  }
+
+  .ride-match-button-bookings-page{
+
+    text-align: right;
+    margin-left: 82%;
+    background-color: whitesmoke;
+  }
+
+  .trip-status{
+    margin-top: 1%;
+    text-align: right;
+    margin-left: 55%;
+    margin-right: -200%;
+    font-size: medium;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .info-upcoming-trips-page div{
+    display: inline-block;
+  }
+ 
+
+  .info-left-icons{
+    background-color: darkcyan;
+    border: none;
+    border-radius: 20px;
+    padding: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: white;
+
+  }
+
+
+ .ride-match-button-bookings-page button{
+    display: inline-block;
+ }
