@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-// import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 export default function LoginComponent() {
    // const navigate = useHistory();
     // function NavigateTo() {
@@ -24,7 +24,7 @@ export default function LoginComponent() {
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                    <Form.Check type="checkbox" label="Remember me" />
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Submit
