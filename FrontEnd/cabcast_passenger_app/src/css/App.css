@@ -1,0 +1,259 @@
+/* App.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+  color: white;
+  font-family: sans-serif;
+  justify-content: left;
+}
+
+.header-section {
+  background-color: rgb(8, 8, 35);
+}
+
+/* Style for horizontal menu */
+.horizontal-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+  margin-bottom: 50px;
+
+}
+
+.horizontal-menu select{
+  background-color: rgb(8, 8, 35);
+  display: inline-block;
+  margin-right: 20px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.horizontal-menu option{
+  background-color: darkcyan;
+  border: none;
+  border-radius: 20px;
+}
+
+.bg-image{
+  height: 100%;
+  padding-bottom: 100px;
+  padding-top: 3px;
+  margin-top: -50px;
+
+}
+
+.full-form{
+  margin-top: 50px;
+}
+
+
+
+/* Style for tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  padding-bottom: 20px;
+  width: 101%;
+  
+
+ 
+}
+
+.tabs button {
+  flex: 1;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid darkcyan;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+  position: relative;
+  text-align: center;
+  margin-right: -1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.tabs button:focus {
+  outline: none;
+}
+
+.tabs button:hover {
+  background-color: rgb(155, 207, 209);
+  color: #333;
+}
+
+#fromOffice{
+  margin-left: 24%;
+  border-radius: 20px 0 0 0;
+  border-right: 1px solid darkcyan;
+  font-size: large;
+}
+
+#toOffice{
+  margin-right: 24%;
+  border-radius: 0 20px 0 0;
+  border-left: 1px solid darkcyan;
+  font-size: large;
+}
+
+
+/* Style for forms */
+.form {
+  margin-top: 29px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  margin-left: 12px;
+  opacity: 0.9;
+  
+  
+}
+
+.form form {
+  border-top: 2px solid darkcyan;
+  background-color: white;
+  padding: 45px;
+  width: 52%;
+  padding-left: 75px;
+  margin-top: -49px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.form select, .form input[type="date"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: large;
+  background-color: #f1f1f1;
+  border: none;
+}
+
+.form button {
+  background-color: darkcyan;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: large;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.form button:focus {
+  outline: none;
+}
+
+.form button:hover {
+  background-color: rgb(1, 88, 88)
+}
+
+.form input[type="date"] {
+  margin-left: 20%;
+}
+
+.result{
+  padding-bottom: 50%;
+}
+
+.result1{
+  border: 1px solid #ebebeb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  padding: 20px;
+  width: 98%;
+  padding-left: 75px;
+  border-radius: 20px 20px 20px 20px;
+  justify-content: center;
+  margin-left: 1%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.name-header{
+  background-color: rgb(199, 231, 232);
+  border-radius: 20px 20px 0 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: -1.8%;
+  width: 109%;
+  margin-left: -7%;
+  padding-left: 5%;
+  font-size: x-large;
+}
+
+.info-right{
+  text-align: right;
+  font-size: larger;
+  padding-top: 2%;
+}
+
+.rider-select{
+  background-color: darkcyan;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.ride-match-button{
+  margin-top: 1%;
+  text-align: right;
+
+}
+
+.place-div{
+  display: inline;
+  background-color: #f1f1f1;
+  margin-right: 15px;
+  padding: 3%;
+  padding-top: 2%;
+  border-radius: 10px;
+  margin-left: +20px;
+
+}
+
+
+.footer-section{
+  padding: 8%;
+  background-color: rgb(8, 8, 35);
+}
+
+.final-footer{
+  padding: 0.5%;
+  background-color: darkcyan;
+  font-size: medium;
+  color: white;
+  padding-left: 5%;
+  font-weight: 700;
+  font-family: verdana;
+}
+

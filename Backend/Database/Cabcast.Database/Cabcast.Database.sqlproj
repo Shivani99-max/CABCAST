@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Cabcast.Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{42623611-83e6-454e-8757-241a3cf69a71}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath />
+    <RootNamespace>Cabcast.Database</RootNamespace>
+    <AssemblyName>Cabcast.Database</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Schema" />
+    <Folder Include="Setup" />
+    <Folder Include="Setup\Table" />
+    <Folder Include="Setup\Table\Driver" />
+    <Folder Include="Metadata" />
+    <Folder Include="Metadata\Table" />
+    <Folder Include="Auth" />
+    <Folder Include="Auth\Table" />
+    <Folder Include="Account" />
+    <Folder Include="Account\Table" />
+    <Folder Include="Lookups" />
+    <Folder Include="Lookups\Table" />
+    <Folder Include="Setup\Table\Passenger" />
+    <Folder Include="Setup\Table\Route" />
+    <Folder Include="Rides" />
+    <Folder Include="Rides\Table" />
+    <Folder Include="Lookups\StoredProcedure" />
+    <Folder Include="Auth\ScalarFunction" />
+    <Folder Include="Setup\StoredProcedure" />
+    <Folder Include="Setup\StoredProcedure\Passenger" />
+    <Folder Include="Location" />
+    <Folder Include="Location\Table" />
+    <Folder Include="Setup\StoredProcedure\Driver" />
+    <Folder Include="Setup\StoredProcedure\Route" />
+    <Folder Include="Rides\StoredProcedure" />
+    <Folder Include="Rides\StoredProcedure\Ride" />
+    <Folder Include="Location\ScalarFunction" />
+    <Folder Include="Account\StoredProcedure" />
+    <Folder Include="Post.Deployment" />
+    <Folder Include="Location\StoredProcedure" />
+    <Folder Include="Rides\StoredProcedure\RideBooking" />
+    <Folder Include="Auth\StoredProcedure" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema\Account.sql" />
+    <Build Include="Schema\Auth.sql" />
+    <Build Include="Schema\Lookups.sql" />
+    <Build Include="Schema\Setup.sql" />
+    <Build Include="Setup\Table\Driver\DriverInfo.sql" />
+    <Build Include="Schema\Metadata.sql" />
+    <Build Include="Metadata\Table\RowStatusInfo.sql" />
+    <Build Include="Auth\Table\AspNetRoles.sql" />
+    <Build Include="Auth\Table\AspNetUsers.sql" />
+    <Build Include="Auth\Table\AspNetRoleClaims.sql" />
+    <Build Include="Auth\Table\AspNetUserClaims.sql" />
+    <Build Include="Auth\Table\AspNetUserLogins.sql" />
+    <Build Include="Auth\Table\AspNetUserRoles.sql" />
+    <Build Include="Auth\Table\AspNetUserTokens.sql" />
+    <Build Include="Setup\Table\Driver\DriverVehicleInfo.sql" />
+    <Build Include="Account\Table\UserInfo.sql" />
+    <Build Include="Setup\Table\Driver\DriverRouteInfo.sql" />
+    <Build Include="Setup\Table\Passenger\PassengerInfo.sql" />
+    <Build Include="Setup\Table\Route\RouteInfo.sql" />
+    <Build Include="Lookups\Table\VehicleTypeInfo.sql" />
+    <Build Include="Lookups\Table\GenderInfo.sql" />
+    <Build Include="Setup\Table\Route\RoutePointInfo.sql" />
+    <Build Include="Schema\Rides.sql" />
+    <Build Include="Rides\Table\RideInfo.sql" />
+    <Build Include="Rides\Table\RideBookingInfo.sql" />
+    <Build Include="Lookups\Table\BookingStatusInfo.sql" />
+    <Build Include="Lookups\StoredProcedure\usp_v1_VehicleTypeInfo_Get.sql" />
+    <Build Include="Auth\ScalarFunction\udp_v1_ValidateLoggedInUser.sql" />
+    <Build Include="Setup\StoredProcedure\Passenger\usp_v1_PassengerInfo_Get.sql" />
+    <Build Include="Schema\Location.sql" />
+    <Build Include="Location\Table\LocationInfo.sql" />
+    <Build Include="Location\Table\AreaInfo.sql" />
+    <Build Include="Location\Table\SubAreaInfo.sql" />
+    <Build Include="Setup\StoredProcedure\Driver\usp_v1_DriverInfo_Get.sql" />
+    <Build Include="Setup\StoredProcedure\Driver\usp_v1_DriverRouteInfo_Get.sql" />
+    <Build Include="Setup\StoredProcedure\Driver\usp_v1_DriverVehicleInfo_Get.sql" />
+    <Build Include="Setup\StoredProcedure\Route\usp_v1_RouteInfo_Get.sql" />
+    <Build Include="Rides\StoredProcedure\Ride\usp_v1_RideInfo_SeacrhByFIlter.sql" />
+    <Build Include="Location\ScalarFunction\udp_v1_ValidateLocationInfo.sql" />
+    <Build Include="Account\StoredProcedure\usp_v1_UserInfo_Save.sql" />
+    <Build Include="Setup\StoredProcedure\Driver\usp_v1_DriverInfo_Save.sql" />
+    <Build Include="Setup\StoredProcedure\Passenger\usp_v1_PassengerInfo_Save.sql" />
+    <Build Include="Setup\StoredProcedure\Passenger\usp_v1_PassengerInfo_GetById.sql" />
+    <Build Include="Setup\StoredProcedure\Driver\usp_v1_DriverVehicleInfo_Save.sql" />
+    <Build Include="Setup\StoredProcedure\Driver\usp_v1_DriverRouteInfo_Save.sql" />
+    <Build Include="Setup\StoredProcedure\Driver\usp_v1_DriverInfo_GetById.sql" />
+    <Build Include="Setup\StoredProcedure\Driver\usp_v1_DriverRouteInfo_GetById.sql" />
+    <Build Include="Setup\StoredProcedure\Driver\usp_v1_DriverVehicleInfo_GetById.sql" />
+    <Build Include="Location\StoredProcedure\usp_v1_LocationInfo_Get.sql" />
+    <Build Include="Rides\StoredProcedure\RideBooking\usp_v1_RideBookingInfo_RequestSave.sql" />
+    <Build Include="Rides\StoredProcedure\RideBooking\usp_v1_RideBookingInfo_RequestCancel.sql" />
+    <Build Include="Rides\StoredProcedure\RideBooking\usp_v1_RideBookingInfo_RequestManageByDriverInfoId.sql" />
+    <Build Include="Location\StoredProcedure\usp_v1_AreaInfo_Get.sql" />
+    <Build Include="Location\StoredProcedure\usp_v1_SubAreaInfo_Get.sql" />
+    <Build Include="Auth\StoredProcedure\usp_v1_AspNetUsers_Save.sql" />
+    <!-- <Build Include="Rides\StoredProcedure\RideBooking\usp_v1_RideBookingInfo_GetById.sql" /> -->
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Post.Deployment\Script.PostDeployment.sql" />
+  </ItemGroup>
+</Project>

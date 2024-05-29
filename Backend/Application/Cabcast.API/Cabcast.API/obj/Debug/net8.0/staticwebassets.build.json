@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kX0kyf3EWs4AkOrO/C5EEJCeqgwdQRcPuU+a3isqlns=",
+  "Source": "Cabcast.API",
+  "BasePath": "_content/Cabcast.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

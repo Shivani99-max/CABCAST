@@ -1,0 +1,14 @@
+﻿CREATE TABLE [Auth].[AspNetUserTokens] (
+  [UserId] NVARCHAR(36) NOT NULL,
+  [LoginProvider] NVARCHAR(36) NOT NULL,
+  [Name] NVARCHAR(50) NOT NULL,
+  [Value] NVARCHAR(MAX) NULL,
+  CONSTRAINT [PK_Auth_AspNetUserTokens] PRIMARY KEY NONCLUSTERED (
+    [UserId] ASC,
+    [Name] ASC
+  )
+  WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+  CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [Auth].[AspNetUsers]([Id])
+) ON [PRIMARY];
+GO;
+CREATE UNIQUE INDEX [AspNetUserTokens_UserNameIndex] ON [Auth].[AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;

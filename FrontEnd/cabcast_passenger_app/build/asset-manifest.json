@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7712a0ae.css",
+    "main.js": "/static/js/main.9ea2711c.js",
+    "static/js/453.bb225a53.chunk.js": "/static/js/453.bb225a53.chunk.js",
+    "static/media/CABCAST.png": "/static/media/CABCAST.d82f2426c836d4428008.png",
+    "static/media/carpoolimage2.png": "/static/media/carpoolimage2.af041803f118e40a3186.png",
+    "static/media/carpoolimage.jpg": "/static/media/carpoolimage.8755951bfdbd0d3cb58d.jpg",
+    "static/media/logo.ico": "/static/media/logo.bcd62e8f3d6a08740996.ico",
+    "index.html": "/index.html",
+    "main.7712a0ae.css.map": "/static/css/main.7712a0ae.css.map",
+    "main.9ea2711c.js.map": "/static/js/main.9ea2711c.js.map",
+    "453.bb225a53.chunk.js.map": "/static/js/453.bb225a53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7712a0ae.css",
+    "static/js/main.9ea2711c.js"
+  ]
+}

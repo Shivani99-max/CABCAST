@@ -1,0 +1,14 @@
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/bin/Debug/net8.0/Cabcast.Core.deps.json
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/bin/Debug/net8.0/Cabcast.Core.runtimeconfig.json
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/bin/Debug/net8.0/Cabcast.Core.dll
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/bin/Debug/net8.0/Cabcast.Core.pdb
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/obj/Debug/net8.0/Cabcast.Core.csproj.AssemblyReference.cache
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/obj/Debug/net8.0/Cabcast.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/obj/Debug/net8.0/Cabcast.Core.AssemblyInfoInputs.cache
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/obj/Debug/net8.0/Cabcast.Core.AssemblyInfo.cs
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/obj/Debug/net8.0/Cabcast.Core.csproj.CoreCompileInputs.cache
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/obj/Debug/net8.0/Cabcast.Core.dll
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/obj/Debug/net8.0/refint/Cabcast.Core.dll
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/obj/Debug/net8.0/Cabcast.Core.pdb
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/obj/Debug/net8.0/Cabcast.Core.genruntimeconfig.cache
+/Users/cmahen099/Downloads/cabcast-main 3/Application/Cabcast.API/Cabcast.Core/obj/Debug/net8.0/ref/Cabcast.Core.dll
