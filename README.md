@@ -1,4 +1,5 @@
-![Uploading BRAND.png…]()
+
+<img width="741" alt="BRAND" src="https://github.com/Shivani99-max/CABCAST/assets/4799507/9516438c-d228-4f9f-8641-4462dec43b28">
 
 # [CabCast](https://cabcast-2024.firebaseapp.com/)
 
