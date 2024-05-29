@@ -37,11 +37,6 @@ Please use the below dataset for experiencing the booking journey demo
 
 ## Project Status
 
-| Project Phase | Current Status |
-| --- | --- |
-| MVP | **Work In Progress** |
-| Feature Development | TBD |
-
 | Project Phase  | Current Status |
 | -------------  | -------------  |
 | MVP  | $${\color{lightgreen}Work \space In \space Progress}$$  |
