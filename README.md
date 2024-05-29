@@ -1,5 +1,5 @@
 
-<img height="600" width="400" alt="BRAND" src="https://github.com/Shivani99-max/CABCAST/assets/4799507/9516438c-d228-4f9f-8641-4462dec43b28">
+<img height="700" width="700" alt="BRAND" src="https://github.com/Shivani99-max/CABCAST/assets/4799507/9516438c-d228-4f9f-8641-4462dec43b28">
 
 # [CabCast](https://cabcast-2024.firebaseapp.com/)
 
